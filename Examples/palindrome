@@ -1,0 +1,12 @@
+function isPalindrome(str) 
+{
+  str = str.toLowerCase();
+  str = str.replace(/\s+|[.,;:?!]/g, '').trim(); //regex to remove whitespace \s+ and punctuation marks, g is global replacement
+
+  for(let i = 0; i < str.length/2; i++){
+   if(str[i] != str[str.length -1 - i]) return false; // comaring character at index i with character at the corresponding position from the end 
+  }
+  return true;
+}
+
+console.log(isPalindrome("Race car"))
