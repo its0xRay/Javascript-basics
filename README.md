@@ -71,3 +71,9 @@ function name (parameter1, parameter 2,...) {
 }
 ```
 Variables declared within a function is Local to the function. Can be accessed only within that function.
+
+## Higher-order methods available on JavaScript arrays
+forEach: General-purpose iteration, no return value.
+map: Transformation, returns a new array.
+filter: Selection, returns a new array with a subset of elements.
+reduce: Accumulation, returns a single value.
