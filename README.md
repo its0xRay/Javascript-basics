@@ -72,6 +72,14 @@ function name (parameter1, parameter 2,...) {
 ```
 Variables declared within a function is Local to the function. Can be accessed only within that function.
 
+# Arrow Functions
+shorter syntax
+```
+const functionName = (parameters) => {
+  return parameters + 10;
+}
+```
+
 ## Higher-order methods available on JavaScript arrays
 * forEach: General-purpose iteration, no return value. (iterates over each element)
 * map: Transformation, returns a new array. (ex- square all the numbers inside the array)
@@ -82,3 +90,5 @@ Variables declared within a function is Local to the function. Can be accessed o
 * findIndex: Retrieves the index of the first item from an array that meets a condition
 * some: Checks if any item(s) in an array meet a certain condition
 * sort: Orders the elements in an array (in-place) based on a comparison strategy. If compare function is not added it will sort as per dictionary order and 100 will come up before 40
+
+## Set
