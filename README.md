@@ -77,3 +77,8 @@ Variables declared within a function is Local to the function. Can be accessed o
 * map: Transformation, returns a new array. (ex- square all the numbers inside the array)
 * filter: Selection, returns a new array with a subset of elements. (ex- filter elements >50)
 * reduce: Accumulation, returns a single value. (ex- sum the array)
+
+* find: Retrieves the first item from an array that meets a condition
+* findIndex: Retrieves the index of the first item from an array that meets a condition
+* some: Checks if any item(s) in an array meet a certain condition
+* sort: Orders the elements in an array (in-place) based on a comparison strategy. If compare function is not added it will sort as per dictionary order and 100 will come up before 40
