@@ -86,6 +86,7 @@ const functionName = (parameters) => {
 * filter: Selection, returns a new array with a subset of elements. (ex- filter elements >50)
 * reduce: Accumulation, returns a single value. (ex- sum the array)
 
+*every:
 * find: Retrieves the first item from an array that meets a condition
 * findIndex: Retrieves the index of the first item from an array that meets a condition
 * some: Checks if any item(s) in an array meet a certain condition
