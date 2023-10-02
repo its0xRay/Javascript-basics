@@ -43,6 +43,29 @@ Objects, Array, Function
 * Ternary/Conditional: ?
 * Type: typeof, ,instanceof
 
+## Functions
+Block of code performing a specific task. Can reuse code. 
+Executed when called/invoked or abn event occurs or automatically
+
+```
+function name (parameter1, parameter 2,...) {
+	// code
+}
+```
+Variables declared within a function is Local to the function. Can be accessed only within that function.
+
+# Arrow Functions
+shorter syntax
+
+```
+let sum = (a,b) => a+b;
+```
+
+```
+const functionName = (parameters) => {
+  return parameters + 10;
+}
+```
 ## Object
 Are variables too. Contains many related values.
 For example a car has make, model, type, color
@@ -61,24 +84,6 @@ const cars = ["BMW","Mercedes",...]
 JS is a dynamic language so array length and type of objects can change
 Array can have multiple types of data unlike other languages
 
-## Functions
-Block of code performing a specific task. Can reuse code. 
-Executed when called/invoked or abn event occurs or automatically
-
-```
-function name (parameter1, parameter 2,...) {
-	// code
-}
-```
-Variables declared within a function is Local to the function. Can be accessed only within that function.
-
-# Arrow Functions
-shorter syntax
-```
-const functionName = (parameters) => {
-  return parameters + 10;
-}
-```
 
 ## Higher-order methods available on JavaScript arrays
 * forEach: General-purpose iteration, no return value. (iterates over each element)
