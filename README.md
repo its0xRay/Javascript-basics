@@ -66,6 +66,22 @@ const functionName = (parameters) => {
   return parameters + 10;
 }
 ```
+
+## Higher-order built-in methods available on JavaScript arrays
+Instead of writing regular loops, modern js supports built in methods 
+* forEach: General-purpose iteration, no return value. (iterates over each element)
+* map: Transformation, returns a new array. (ex- square all the numbers inside the array)
+* filter: Selection, returns a new array with a subset of elements. (ex- filter elements >50)
+* reduce: Accumulation, returns a single value. (ex- sum the array)
+
+*every:
+* find: Retrieves the first item from an array that meets a condition
+* findIndex: Retrieves the index of the first item from an array that meets a condition
+* some: Checks if any item(s) in an array meet a certain condition
+* sort: Orders the elements in an array (in-place) based on a comparison strategy. If compare function is not added it will sort as per dictionary order and 100 will come up before 40
+
+## Set
+
 ## Object
 Are variables too. Contains many related values.
 For example a car has make, model, type, color
@@ -85,16 +101,3 @@ JS is a dynamic language so array length and type of objects can change
 Array can have multiple types of data unlike other languages
 
 
-## Higher-order methods available on JavaScript arrays
-* forEach: General-purpose iteration, no return value. (iterates over each element)
-* map: Transformation, returns a new array. (ex- square all the numbers inside the array)
-* filter: Selection, returns a new array with a subset of elements. (ex- filter elements >50)
-* reduce: Accumulation, returns a single value. (ex- sum the array)
-
-*every:
-* find: Retrieves the first item from an array that meets a condition
-* findIndex: Retrieves the index of the first item from an array that meets a condition
-* some: Checks if any item(s) in an array meet a certain condition
-* sort: Orders the elements in an array (in-place) based on a comparison strategy. If compare function is not added it will sort as per dictionary order and 100 will come up before 40
-
-## Set
