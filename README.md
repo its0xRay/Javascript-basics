@@ -100,4 +100,5 @@ const cars = ["BMW","Mercedes",...]
 JS is a dynamic language so array length and type of objects can change
 Array can have multiple types of data unlike other languages
 
-
+---
+Script is added towards the end of the HTML body so that HTML renders first while the intensive js file gets rendered next
