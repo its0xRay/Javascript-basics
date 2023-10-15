@@ -102,3 +102,9 @@ Array can have multiple types of data unlike other languages
 
 ---
 Script is added towards the end of the HTML body so that HTML renders first while the intensive js file gets rendered next
+
+## To be added
+Classes
+Constructor
+Objects
+
