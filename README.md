@@ -83,11 +83,15 @@ Instead of writing regular loops, modern js supports built in methods
 ## Set
 
 ## Object
-Are variables too. Contains many related values.
-For example a car has make, model, type, color
+Are variables too. Contains many related values. 
+Collection of properties (association between key & value). If the property value is a funtion, it is known as a method.
 
+For example: a car has make, model, type, color
+const car = {make: "honda", model: "city", price:900000, type: "sedan", color: "grey"};
 
-How to Access? - objectName.propertyName
+How to Access? - 
+dot notation: objectName.propertyName
+bracket notation: cardSuits[suit]
 
 ## Arrays
 List of Objects
